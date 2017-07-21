@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "My (@titarenko) eslint config.",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "standard",
+    "prepush": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titarenko/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titarenko/eslint-config/issues"
+  },
+  "homepage": "https://github.com/titarenko/eslint-config#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-require-path-exists": "^1.1.7"
+  }
+}
