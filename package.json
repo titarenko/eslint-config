@@ -1,6 +1,6 @@
 {
   "name": "@titarenko/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My (@titarenko) eslint config.",
   "main": "index.js",
   "scripts": {
@@ -24,11 +24,11 @@
   "homepage": "https://github.com/titarenko/eslint-config#readme",
   "devDependencies": {
     "husky": "^0.14.3",
-    "lint-staged": "^4.0.2",
-    "standard": "^10.0.2"
+    "lint-staged": "^4.0.2"
   },
   "dependencies": {
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-require-path-exists": "^1.1.7"
+    "eslint-plugin-require-path-exists": "^1.1.7",
+    "standard": "^10.0.2"
   }
 }
