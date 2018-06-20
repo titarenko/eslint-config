@@ -4,6 +4,8 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'no-mixed-operators': ['off'],
-    'no-return-assign': ['off'] // implement 'except-this'
+    'no-return-assign': ['off'], // implement 'except-this'
+    'curly': ['error', 'all'],
+    'brace-style': ['error', '1tbs'],
   }
 }
