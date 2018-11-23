@@ -6,6 +6,6 @@ module.exports = {
     'no-mixed-operators': ['off'],
     'no-return-assign': ['off'], // implement 'except-this'
     'curly': ['error', 'all'],
-    'brace-style': ['error', '1tbs'],
+    'brace-style': ['error', '1tbs']
   }
 }
